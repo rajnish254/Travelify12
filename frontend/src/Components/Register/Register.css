@@ -1,0 +1,27 @@
+.crow {
+    height: 100vh;
+}
+
+.register-form-block {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+}
+
+@media(max-width:600px) {
+    .register-form-block {
+        width: 70%;
+    }
+}
+
+.custom-btn {
+    background: rgb(216, 75, 216) !important;
+}
+
+.title {
+    color: blueviolet;
+    font-family: playfair;
+    font-weight: 700;
+}

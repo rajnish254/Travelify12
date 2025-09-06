@@ -1,0 +1,40 @@
+.crow {
+  height: 100vh;
+}
+
+.login-form-block {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  margin-bottom: auto;
+}
+
+@media (max-width: 600px) {
+  .login-form-block {
+    width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .login-form-block {
+    margin-top: 15%;
+  }
+}
+
+.custom-btn {
+  background: rgb(216, 75, 216) !important;
+}
+
+.title {
+  color: blueviolet;
+  font-family: playfair;
+  font-weight: 700;
+}
+
+.column-1 {
+  background-image: url("https://wallpaperaccess.com/full/647493.jpg");
+  /* background-color: blueviolet; */
+  background-size: cover;
+  padding-top: 5%;
+}
